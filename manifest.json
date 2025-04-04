@@ -5,5 +5,18 @@
     "display": "standalone", //faz o app abrir como aplicativo indepente
     "background_color": "#ffffff", // cor de fundo no carregamento do app
     "theme_color": "#000000", // cor da barra de status
-    
+    "description": "esse é o app dos estudantes o 3 sistemas 2025",
+    "id": "portifolio-app",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "size": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512.png",
+            "size":"512x512",
+            "type":"image/png"
+        }
+    ]
 }
