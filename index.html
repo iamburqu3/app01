@@ -8,8 +8,28 @@
     <title>App portifilio</title>
 
     <!--registro de service worker(nas proximas aulas)-->
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/sw.js')
+               .then(()=> console.log("service worker registrado"))
+               .catch((err)=> console.error("erro no service worker:",err));
 
+        }
+    </script>
 
+ <style>
+    body, html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+ </style>
 
 </head>
 <body>
