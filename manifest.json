@@ -2,11 +2,13 @@
     "name": "APP_Portifolio",
     "short_name": "Portifolio",
     "start_url": "/",
-    "display": "standalone", //faz o app abrir como aplicativo indepente
-    "background_color": "#ffffff", // cor de fundo no carregamento do app
-    "theme_color": "#000000", // cor da barra de status
+    "display": "standalone", 
+    "background_color": "#ffffff", 
+    "theme_color": "#000000", 
     "description": "esse é o app dos estudantes o 3 sistemas 2025",
     "id": "portifolio-app",
+    "dir":"ltr",
+    "lang": "pt-BR",
     "icons": [
         {
             "src": "/icon-192.png",
@@ -18,5 +20,17 @@
             "size":"512x512",
             "type":"image/png"
         }
-    ]
+    ],
+    "orientation": "portrait",
+    "screnenshots": [
+        {
+       "src": "/screenshot1.png",
+       "size":"320x480",
+       "type": "image.png"
+        }
+        
+    ],
+    "categories": ["education"],
+    "preefer_related_applications": false,
+    "scope":"/"
 }
